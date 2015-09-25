@@ -1,0 +1,87 @@
+﻿Build started 25/09/2015 21:07:26.
+     1>Project "C:\Users\Martin\Documents\GitHub\Direct3D11App\DirectX11 Scene\DirectX11 Scene.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DirectX11 Scene.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt applicationclass.cpp cameraclass.cpp cpuclass.cpp d3dclass.cpp fontclass.cpp fontshaderclass.cpp fpsclass.cpp glowshaderclass.cpp horizontalblurshaderclass.cpp inputclass.cpp lightclass.cpp main.cpp modelclass.cpp orthowindowclass.cpp particleshaderclass.cpp particlesystemclass.cpp positionclass.cpp reflectionshaderclass.cpp rendertextureclass.cpp systemclass.cpp terrainclass.cpp lightshaderclass.cpp textclass.cpp textureclass.cpp textureshaderclass.cpp timerclass.cpp TokenStream.cpp verticalblurshaderclass.cpp waterclass.cpp watershaderclass.cpp
+         applicationclass.cpp
+     1>applicationclass.cpp(298): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>applicationclass.cpp(299): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         cameraclass.cpp
+         cpuclass.cpp
+         d3dclass.cpp
+         fontclass.cpp
+         fontshaderclass.cpp
+         fpsclass.cpp
+         glowshaderclass.cpp
+         horizontalblurshaderclass.cpp
+         inputclass.cpp
+         lightclass.cpp
+         main.cpp
+         modelclass.cpp
+     1>modelclass.cpp(397): warning C4018: '<' : signed/unsigned mismatch
+     1>modelclass.cpp(388): warning C4101: 'vertices' : unreferenced local variable
+         orthowindowclass.cpp
+         particleshaderclass.cpp
+         particlesystemclass.cpp
+         positionclass.cpp
+         reflectionshaderclass.cpp
+         rendertextureclass.cpp
+         systemclass.cpp
+         Compiling...
+         terrainclass.cpp
+         lightshaderclass.cpp
+         textclass.cpp
+         textureclass.cpp
+         textureshaderclass.cpp
+         timerclass.cpp
+         TokenStream.cpp
+         verticalblurshaderclass.cpp
+         waterclass.cpp
+     1>waterclass.cpp(24): warning C4101: 'result' : unreferenced local variable
+         watershaderclass.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Release\DirectX11 Scene.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Release\DirectX11 Scene.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Release\DirectX11 Scene.lib" /MACHINE:X86 Release\applicationclass.obj
+         Release\cameraclass.obj
+         Release\cpuclass.obj
+         Release\d3dclass.obj
+         Release\fontclass.obj
+         Release\fontshaderclass.obj
+         Release\fpsclass.obj
+         Release\glowshaderclass.obj
+         Release\horizontalblurshaderclass.obj
+         Release\inputclass.obj
+         Release\lightclass.obj
+         Release\main.obj
+         Release\modelclass.obj
+         Release\orthowindowclass.obj
+         Release\particleshaderclass.obj
+         Release\particlesystemclass.obj
+         Release\positionclass.obj
+         Release\reflectionshaderclass.obj
+         Release\rendertextureclass.obj
+         Release\systemclass.obj
+         Release\terrainclass.obj
+         Release\lightshaderclass.obj
+         Release\textclass.obj
+         Release\textureclass.obj
+         Release\textureshaderclass.obj
+         Release\timerclass.obj
+         Release\TokenStream.obj
+         Release\verticalblurshaderclass.obj
+         Release\waterclass.obj
+         Release\watershaderclass.obj
+         Generating code
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(932): warning C4715: 'ApplicationClass::RenderBlur' : not all control paths return a value
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(545): warning C4715: 'ApplicationClass::InitializeShaders' : not all control paths return a value
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(450): warning C4715: 'ApplicationClass::InitializeBlur' : not all control paths return a value
+         Finished generating code
+         DirectX11 Scene.vcxproj -> C:\Users\Martin\Documents\GitHub\Direct3D11App\Release\DirectX11 Scene.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\DirectX11 Scene.unsuccessfulbuild".
+         Touching "Release\DirectX11 Scene.lastbuildstate".
+     1>Done Building Project "C:\Users\Martin\Documents\GitHub\Direct3D11App\DirectX11 Scene\DirectX11 Scene.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.52

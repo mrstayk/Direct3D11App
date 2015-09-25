@@ -1,0 +1,88 @@
+﻿Build started 25/09/2015 21:03:21.
+     1>Project "C:\Users\Martin\Documents\GitHub\Direct3D11App\DirectX11 Scene\DirectX11 Scene.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DirectX11 Scene.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt applicationclass.cpp cameraclass.cpp cpuclass.cpp d3dclass.cpp fontclass.cpp fontshaderclass.cpp fpsclass.cpp glowshaderclass.cpp horizontalblurshaderclass.cpp inputclass.cpp lightclass.cpp main.cpp modelclass.cpp orthowindowclass.cpp particleshaderclass.cpp particlesystemclass.cpp positionclass.cpp reflectionshaderclass.cpp rendertextureclass.cpp systemclass.cpp terrainclass.cpp lightshaderclass.cpp textclass.cpp textureclass.cpp textureshaderclass.cpp timerclass.cpp TokenStream.cpp verticalblurshaderclass.cpp waterclass.cpp watershaderclass.cpp
+         watershaderclass.cpp
+         waterclass.cpp
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\waterclass.cpp(24): warning C4101: 'result' : unreferenced local variable
+         verticalblurshaderclass.cpp
+         TokenStream.cpp
+         timerclass.cpp
+         textureshaderclass.cpp
+         textureclass.cpp
+         textclass.cpp
+         lightshaderclass.cpp
+         terrainclass.cpp
+         systemclass.cpp
+         rendertextureclass.cpp
+         reflectionshaderclass.cpp
+         positionclass.cpp
+         particlesystemclass.cpp
+         particleshaderclass.cpp
+         orthowindowclass.cpp
+         modelclass.cpp
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\modelclass.cpp(397): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\modelclass.cpp(388): warning C4101: 'vertices' : unreferenced local variable
+         main.cpp
+         lightclass.cpp
+         Generating Code...
+         Compiling...
+         inputclass.cpp
+         horizontalblurshaderclass.cpp
+         glowshaderclass.cpp
+         fpsclass.cpp
+         fontshaderclass.cpp
+         fontclass.cpp
+         d3dclass.cpp
+         cpuclass.cpp
+         cameraclass.cpp
+         applicationclass.cpp
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(298): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(299): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(450): warning C4715: 'ApplicationClass::InitializeBlur' : not all control paths return a value
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(545): warning C4715: 'ApplicationClass::InitializeShaders' : not all control paths return a value
+     1>c:\users\martin\documents\github\direct3d11app\directx11 scene\applicationclass.cpp(932): warning C4715: 'ApplicationClass::RenderBlur' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Debug\DirectX11 Scene.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Debug\DirectX11 Scene.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Martin\Documents\GitHub\Direct3D11App\Debug\DirectX11 Scene.lib" /MACHINE:X86 Debug\applicationclass.obj
+         Debug\cameraclass.obj
+         Debug\cpuclass.obj
+         Debug\d3dclass.obj
+         Debug\fontclass.obj
+         Debug\fontshaderclass.obj
+         Debug\fpsclass.obj
+         Debug\glowshaderclass.obj
+         Debug\horizontalblurshaderclass.obj
+         Debug\inputclass.obj
+         Debug\lightclass.obj
+         Debug\main.obj
+         Debug\modelclass.obj
+         Debug\orthowindowclass.obj
+         Debug\particleshaderclass.obj
+         Debug\particlesystemclass.obj
+         Debug\positionclass.obj
+         Debug\reflectionshaderclass.obj
+         Debug\rendertextureclass.obj
+         Debug\systemclass.obj
+         Debug\terrainclass.obj
+         Debug\lightshaderclass.obj
+         Debug\textclass.obj
+         Debug\textureclass.obj
+         Debug\textureshaderclass.obj
+         Debug\timerclass.obj
+         Debug\TokenStream.obj
+         Debug\verticalblurshaderclass.obj
+         Debug\waterclass.obj
+         Debug\watershaderclass.obj
+     1>applicationclass.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         DirectX11 Scene.vcxproj -> C:\Users\Martin\Documents\GitHub\Direct3D11App\Debug\DirectX11 Scene.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\DirectX11 Scene.unsuccessfulbuild".
+         Touching "Debug\DirectX11 Scene.lastbuildstate".
+     1>Done Building Project "C:\Users\Martin\Documents\GitHub\Direct3D11App\DirectX11 Scene\DirectX11 Scene.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.99
